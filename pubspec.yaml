@@ -1,0 +1,36 @@
+name: sportify
+version: 1.0.0+1
+publish_to: none
+description: A new Flutter project.
+environment: 
+  sdk: '>=2.16.1 <3.0.0'
+
+dependencies: 
+  cupertino_icons: ^1.0.2
+  lottie: ^1.2.2
+  get: 4.6.1
+  flutter_screenutil:
+  nb_utils: ^4.4.8
+  cached_network_image: ^3.1.0
+  syncfusion_flutter_charts: ^20.1.47+1
+  flutter_blue: ^0.8.0
+  flutter: 
+    sdk: flutter
+
+dev_dependencies: 
+  flutter_lints: ^1.0.0
+  flutter_test: 
+    sdk: flutter
+
+flutter: 
+  uses-material-design: true
+  assets:
+      - assets/animation/4565-heartbeat-medical.json
+      - assets/images/placeholder.jpg
+      - assets/images/wa_bg.jpg
+      - assets/animation/90168-running.json
+      - assets/images/ic_user.png
+      - assets/animation/44474-beating-heart.json
+      - assets/images/heart-rate.png
+
+
